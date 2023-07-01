@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: coral;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: coral;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: blanchedalmond;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color:blanchedalmond
+}
+
+.text-colored {
+    color: coral;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: coral;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: coral;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
